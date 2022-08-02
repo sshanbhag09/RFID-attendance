@@ -11,9 +11,9 @@
 MFRC522 mfrc522(SS_PIN, RST_PIN); // Create MFRC522 instance.
 //************************************************************************
 /* Set these to your desired credentials. */
-const char *ssid = "ramanand";
-const char *password = "Geetaram102@";
-const char* device_token  = " b36be4706cc02b0e";
+const char *ssid = "";
+const char *password = "";
+const char* device_token  = " Your Token ";
 //************************************************************************
 String URL = "http://192.168.0.105/rfidattendance/getdata.php"; //computer IP or the server domain
 String getData, Link;
